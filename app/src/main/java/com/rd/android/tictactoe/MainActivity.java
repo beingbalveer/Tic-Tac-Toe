@@ -1,4 +1,4 @@
-package com.example.android.tictactoe;
+package com.rd.android.tictactoe;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -6,10 +6,6 @@ import android.os.Handler;
 import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.View;
-import android.view.ViewGroup;
-import android.view.animation.AlphaAnimation;
-import android.view.animation.Animation;
-import android.view.animation.DecelerateInterpolator;
 import android.widget.Button;
 import android.widget.GridLayout;
 import android.widget.ImageButton;
@@ -18,8 +14,6 @@ import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Random;
-
-import static java.security.AccessController.getContext;
 
 public class MainActivity extends Activity {
 
